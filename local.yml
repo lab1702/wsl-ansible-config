@@ -1,0 +1,44 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+  - name: update packages
+    apt:
+      name: "*"
+      state: latest
+      update_cache: true
+
+  - name: install packages
+    package:
+      name:
+        - ubuntu-restricted-extras
+        - build-essential
+        - gfortran
+        - rust-all
+        - golang
+        - python3
+        - python3-pip
+        - python3-setuptools
+        - python3-wheel
+        - python3-venv
+        - python3-virtualenv
+        - git
+        - vim
+        - ripgrep
+        - figlet
+        - dos2unix
+        - btop
+        - htop
+        - nmon
+        - atop
+        - nvtop
+        - glances
+
+  - name: install snaps classic mode
+    snap:
+      classic: yes
+      name:
+        - code
+        - emacs
