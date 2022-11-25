@@ -12,4 +12,4 @@ Run this once after installing the OS:
 
 Run this to apply the config to your workstation:
 
-    sudo ansible-pull -U https://github.com/lab1702/ubuntu-ansible-config.git --extra-vars "host_user=$USER"
+    sudo ansible-pull -U https://github.com/lab1702/wsl-ansible-config.git --extra-vars "host_user=$USER"
