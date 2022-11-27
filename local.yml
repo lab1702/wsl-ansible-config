@@ -32,24 +32,19 @@
         - dos2unix
         - btop
         - htop
-        - nmon
         - atop
         - nvtop
         - glances
-        - texlive-full
-        - texstudio
 
   - name: install snaps
     snap:
       name:
-        - firefox
         - cointop
 
   - name: install snaps classic mode
     snap:
       classic: yes
       name:
-        - code
         - emacs
 
   - name: add user to groups
