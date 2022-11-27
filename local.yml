@@ -31,13 +31,13 @@
         - figlet
         - dos2unix
         - nvtop
+        - btop
+        - htop
+        - glances
 
   - name: install snaps
     snap:
       name:
-        - btop
-        - htop
-        - glances
         - cointop
 
   - name: install snaps classic mode
