@@ -6,7 +6,7 @@ It is currently being used with [Ubuntu](https://ubuntu.com/) 22.04 and may or m
 
 ### Ansible Commands
 
-Run this once after installing the OS:
+Run this once after installing the OS and enabling systemd:
 
     sudo apt update && sudo apt install -y git ansible
 
