@@ -30,6 +30,7 @@
         - ripgrep
         - figlet
         - dos2unix
+        - nvtop
 
   - name: install snaps
     snap:
@@ -37,7 +38,6 @@
         - btop
         - htop
         - glances
-        - nvtop
         - cointop
 
   - name: install snaps classic mode
