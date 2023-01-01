@@ -14,7 +14,7 @@
     package:
       name:
         - build-essential
-        - gfortran
+        - git
         - rust-all
         - golang
         - python3
@@ -23,30 +23,21 @@
         - python3-wheel
         - python3-venv
         - python3-virtualenv
-        - git
         - docker.io
         - docker-compose
         - vim
+        - neovim
+        - emacs
         - ripgrep
         - fd-find
         - figlet
         - dos2unix
+        - graphviz
         - nvtop
         - btop
         - htop
         - glances
-
-  - name: install snaps
-    snap:
-      name:
-        - cointop
-
-  - name: install snaps classic mode
-    snap:
-      classic: yes
-      name:
-        - julia
-        - emacs
+        - neofetch
 
   - name: add user to groups
     user:
