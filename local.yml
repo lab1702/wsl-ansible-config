@@ -26,8 +26,6 @@
         - docker.io
         - docker-compose
         - vim
-        - neovim
-        - emacs
         - ripgrep
         - fd-find
         - figlet
